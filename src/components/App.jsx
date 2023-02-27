@@ -1,18 +1,15 @@
 import React from "react";
 import '../styles/App.css'
-import AddIcon from '@mui/icons-material/Add';
+import AddUser from "./AddUser.jsx";
+import UserList from "./UserList.jsx";
 
 
 function App() {
 
   return (
       <div className='App'>
-        <h1 className='heading'>Todo List</h1>
-          <label htmlFor="addTask">Add</label>
-          <div className='inputAndButton'>
-              <input className='input' type='text' placeholder=''/>
-              <button> <AddIcon/> </button>
-          </div>
+          <AddUser />
+          {/*<UserList tasks={tasks}/>*/}
       </div>
   );
 }

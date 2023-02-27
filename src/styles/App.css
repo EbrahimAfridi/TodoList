@@ -7,17 +7,19 @@
 }
 
 body {
-  background-color: #e5f3f5;
+  background-color: #121212;
 }
 
-.heading{
+h1{
     font-weight: bold;
+    color: whitesmoke;
 }
 
 label{
   display: block;
   margin: 0 0 1rem 0;
   font-size: 1.4rem;
+  color: whitesmoke;
 }
 
 .inputAndButton{
@@ -29,25 +31,35 @@ label{
 .inputAndButton .input{
   width: 25em;
   height: 2.5em;
-  border: 2px solid #825151;
+  border: 1px solid rgba(46, 51, 56, 0.84);
   border-radius: 4px;
   outline: none;
-  background-color: #825151;
+  background-color: rgba(46, 51, 56, 0.84);
   color: whitesmoke;
   font-size: 1em;
+  padding-left: 0.8rem;
+}
+
+::placeholder{
+  color: whitesmoke;
 }
 
 .inputAndButton .input:hover{
   cursor: pointer;
+  background-color: rgba(81, 91, 102, 0.84);
 }
 
 .inputAndButton button{
   height: 3.5em;
   width: 3.8em;
-  border: 2px solid black;
   border-radius: 4px;
+  border: 1px solid rgba(46, 51, 56, 0.84);
+  background-color: rgba(46, 51, 56, 0.84);
+  color: whitesmoke;
+  padding: 0;
 }
 
 .inputAndButton button:hover{
   cursor: pointer;
+  background-color: rgba(81, 91, 102, 0.84);
 }

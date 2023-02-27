@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+
+}
+
+li{
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    background-color: rgba(81, 91, 102, 0.84);
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+}
+.userList{
+    border: 1px solid black;
+}
